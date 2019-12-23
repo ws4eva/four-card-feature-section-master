@@ -1,0 +1,46 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Poppins', sans-serif;
+}
+p{
+  color: grey;
+}
+
+.heading-1{
+  font-weight:200;
+}
+
+.heading-2{
+  font-weight:600;
+}
+
+.heading{
+  line-height: 1;
+}
+
+.sub-heading{
+  padding: 0 400px 20px 400px;
+}
+
+.info-container{
+  border-style: solid none none none;
+  border-top-width: thick;
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 2px 5px 10px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+.team-builder{
+  border-color: hsl(0, 78%, 62%);
+  margin: 0 auto 0 auto;
+}
+.img-container{
+  text-align: right;
+}

@@ -1,90 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Four card feature section</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
-
-  <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Poppins">
+  </style>
 </head>
-
 <body>
-
-  <div class="header-container">
-    <h2 class="header-reliable">Reliable, efficient delivery</h2>
-    <h2 class="header-powered">Powered by Technology </h2>
-    <p class="header-paragraph">
-      Our Artificial Intelligence powered tools use millions of project data points
-      to ensure that your project is successful
-    </p>
+  <div class="heading">
+    <h2><span class="heading-1">Reliable, efficient delivery</span></h2>
+    <h2><span class="heading-2">Powered by Technology</span></h2>
   </div>
 
-  <div class="main-container">
-    <div class="pseudo-container">
-      <div class="info-container supervisor-container">
-        <div class="text-cotainer">
-          <h3>Supervisor</h3>
-        Monitors activity to identify project roadblocks
-        </div>
-        <div class="image-container">
-          <img src="images/icon-supervisor.svg" alt="supervisor-icon">
-        </div>
-      </div>
-    </div>
+  <div class="sub-heading">
+    <p>Our Artificial Intelligence powered tools use millions of project data points
+    to ensure that your project is successful</p>
+  </div>
 
-    <div class="pseudo-container">
-      <div class="info-container team-builder-container">
-        <div class="text-cotainer">
-          <h3>Team Builder</h3>
-        Scans our talent network to create the optimal team for your project
-        </div>
-        <div class="image-container">
-          <img src="images/icon-team-builder.svg" alt="team-builder-icon">
-        </div>
-      </div>
-  
-      <div class="info-container karma-container">
-        <div class="text-cotainer">
-          <h3>Karma</h3>
-        Regularly evaluates our talent to ensure quality
-        </div>
-        <div class="image-container">
-          <img src="images/icon-karma.svg" alt="karma-icon">
-        </div>
-      </div>
-    </div>
-
-    <div class="pseudo-container">
-      <div class="info-container calculator-container">
-        <div class="text-cotainer">
-          <h3>Calculator</h3>
-        Uses data from past projects to provide better delivery estimates
-        </div>
-        <div class="image-container">
-          <img src="images/icon-calculator.svg" alt="calculator-icon">
-        </div>
-      </div>
+  <div class="info-container">
+    <h4>Supervisor</h4>
+    <p>Monitors activity to identify project roadblocks</p>
+    <div class="img-container">
+          <img class="supervisor-img" src="images/icon-supervisor.svg" alt="supervisor-img">
     </div>
   </div>
-<!-- 
+
+  <div class="info-container team-builder">
+    <h4>Team Builder</h4>
+    <p>Scans our talent network to create the optimal team for your project</p>
+    <div class="img-container">
+          <img src="images/icon-team-builder.svg" alt="team-builder-img">
+    </div>
+  </div>
+
+  <div class="info-container">
+    <h4>Karma</h4>
+    <p>Regularly evaluates our talent to ensure quality</p>
+    <div class="img-container">
+          <img src="images/icon-karma.svg" alt="karma-img">
+    </div>
+  </div>
+
+  <div class="info-container">
+    <h4>Calculator</h4>
+    <p>Uses data from past projects to provide better delivery estimates</p>
+    <div class="img-container">
+          <img src="images/icon-calculator.svg" alt="calculator-img">
+    </div>
+  </div>
+
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer> -->
+  </footer>
 </body>
-
 </html>
